@@ -1,0 +1,27 @@
+.intro-container
+{
+    display: flex;
+    gap: 20px
+}
+
+.restaurant_menu,
+.cafe_menu,
+.breakfast_menu,
+.hooka_menu
+{
+    border: solid rgb(100, 100, 100);
+    border-radius: 20px;
+    width: 20px;
+    height: 400px;
+
+    transition: transform 0.3s ease;
+    white-space: nowrap;
+}
+
+.restaurant_menu:hover,
+.cafe_menu:hover,
+.breakfast_menu:hover,
+.hooka_menu:hover
+{
+    transform: scale(1.1);
+}
