@@ -52,3 +52,9 @@
   color: #b8860b;               /* طلایی/قهوه‌ای روشن */
   margin-top: 14px;
 }
+
+.menu-image
+{
+  width: 100px;
+  height: 100px;
+}

@@ -2,21 +2,25 @@
     {
         "title": "اسپرسو تک",
         "description": "یک شات قهوه اسپرسو ربوستا",
-        "price": 60000
+        "price": 60000,
+        "image": "./src/img/espresso.png"
     },
     {
         "title": "اسپرسو دوبل",
         "description": "یک شات قهوه اسپرسو ربوستا",
-        "price": 70000
+        "price": 70000,
+        "image": "./src/img/espresso.png"
     },
     {
         "title": "کارامل ماکیاتو",
         "description": "اسپرسو کارامل کامیاتو",
-        "price": 85000
+        "price": 85000,
+        "image": "./src/img/espresso.png"
     },
     {
         "title": "لاته",
         "description": "یک شات قهوه اسپرسو لاته",
-        "price": 75000
+        "price": 75000,
+        "image": "./src/img/espresso.png"
     }
 ]
