@@ -3,13 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Intro from './intro.jsx'
+import NewPost from './NewPost.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Intro />
+      <NewPost />
     </>
   )
 }
