@@ -10,13 +10,13 @@ function NewPost()
         <>
             <div className="post_container">
                 <div className="post-title-div">
-                    <input type="text" className="post-title" value={title}></input>
+                    <input type="text" className="post-title" value={title} onChange={(e) => setTitle(e.target.value)}></input>
                 </div>
                 <div className="post-price-div">
-                    <input type="text" className="post-price" value={price}></input>
+                    <input type="text" className="post-price" value={price} onChange={(e) => setTitle(e.target.value)}></input>
                 </div>
                 <div className="post-description-div">
-                    <input type="text" className="post-description" value={description}></input>
+                    <input type="text" className="post-description" value={description} onChange={(e) => setTitle(e.target.value)}></input>
                 </div>
                 <div className='send-post'>
                     <button className='send-post-button'>send</button>
