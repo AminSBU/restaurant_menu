@@ -21,16 +21,13 @@ function App() {
         <div className="app">
           {/* Navigation Menu */}
           <nav className="navbar">
-            <div className="nav-brand">
-              <Link to="/">MyApp</Link>
-            </div>
             <ul className="nav-menu">
-              <Link to="/">Home</Link>
-              <Link to="/About">Intro</Link>
-              <Link to="/services">Services</Link>
-              <Link to="/products">Products</Link>
-              <Link to="/contact">Contact</Link>
-              <Link to="/Intro">Intro</Link>
+              <Link to="/" className="header'>Home</Link>
+              <Link to="/About" className="header">Intro</Link>
+              <Link to="/services" className="header">Services</Link>
+              <Link to="/products" className="header">Products</Link>
+              <Link to="/contact" className="header">Contact</Link>
+              <Link to="/Intro" className="header">Intro</Link>
             </ul>
           </nav>
 
