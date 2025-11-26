@@ -8,7 +8,6 @@ function Intro()
     return(
         <>
             <div className="intro-container">
-                
                 <Menu items={itemsList} />
             </div>
         </>
