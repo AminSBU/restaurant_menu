@@ -22,32 +22,32 @@ function App() {
             <ul className="nav-menu">
               <Link to="/" className="header">
                 <div>
-                  <span className="nav-text">نوشیدن گرم</span>
-                  <span className="nav-english">Hot Drinks</span>
+                  <span className="nav-text">غذای اصلی</span>
+                  <span className="nav-english">Main Meals</span>
                 </div>
               </Link>
               <Link to="/about" className="header">
                 <div>
-                  <span className="nav-text">نوشیدن گرم</span>
-                  <span className="nav-english">Hot Drinks</span>
+                  <span className="nav-text">پیش غذا</span>
+                  <span className="nav-english">Prefoods</span>
                 </div>
               </Link>
               <Link to="/services" className="header">
                 <div>
-                  <span className="nav-text">نوشیدن گرم</span>
+                  <span className="nav-text">چای و دمنوش</span>
                   <span className="nav-english">Hot Drinks</span>
                 </div>
               </Link>
               <Link to="/products" className="header">
                 <div>
-                  <span className="nav-text">نوشیدن گرم</span>
-                  <span className="nav-english">Hot Drinks</span>
+                  <span className="nav-text">شیک</span>
+                  <span className="nav-english">MilkShakes</span>
                 </div>
               </Link>
               <Link to="/contact" className="header">
                 <div>
-                  <span className="nav-text">نوشیدن گرم</span>
-                  <span className="nav-english">Hot Drinks</span>
+                  <span className="nav-text">نوشیدن سرد</span>
+                  <span className="nav-english">Cold Drinks</span>
                 </div>
               </Link>
               <Link to="/intro" className="header">

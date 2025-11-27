@@ -1,0 +1,26 @@
+[
+    {
+        "title": "آفوگاتو",
+        "description": "ترکیب بستنی و یک شات اسپرسو",
+        "price": 120000,
+        "image": "./src/img/affogato.png"
+    },
+    {
+        "title": "آیس لاته",
+        "description": "یک شات قهوه اسپرسو و لاته",
+        "price": 80000,
+        "image": "./src/img/affogato.png"
+    },
+    {
+        "title": "آیس کارامل ماکیاتو",
+        "description": "اسپرسو کارامل کامیاتو سرد",
+        "price": 95000,
+        "image": "./src/img/affogato.png"
+    },
+    {
+        "title": "آیس آمریکانو",
+        "description": "یک شات قهوه اسپرسو لاته",
+        "price": 175000,
+        "image": "./src/img/affogato.png"
+    }
+]
