@@ -11,7 +11,7 @@ function Menu({items})
                     <img 
                         src={item.image}
                         className="menu-image"
-                        loading="lazy"   // برای عملکرد بهتر
+                        loading="lazy"
                     />
                     <p className="menu-description">{item.description}</p>
                     <div className="menu-price">

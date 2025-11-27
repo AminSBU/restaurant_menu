@@ -20,12 +20,42 @@ function App() {
           {/* Navigation Menu - Fixed duplicate links */}
           <nav className="navbar">
             <ul className="nav-menu">
-              <Link to="/" className="header">Home</Link>
-              <Link to="/about" className="header">About</Link>
-              <Link to="/services" className="header">Services</Link>
-              <Link to="/products" className="header">Products</Link>
-              <Link to="/contact" className="header">Contact</Link>
-              <Link to="/intro" className="header">Intro</Link>
+              <Link to="/" className="header">
+                <div>
+                  <span className="nav-text">نوشیدن گرم</span>
+                  <span className="nav-english">Hot Drinks</span>
+                </div>
+              </Link>
+              <Link to="/about" className="header">
+                <div>
+                  <span className="nav-text">نوشیدن گرم</span>
+                  <span className="nav-english">Hot Drinks</span>
+                </div>
+              </Link>
+              <Link to="/services" className="header">
+                <div>
+                  <span className="nav-text">نوشیدن گرم</span>
+                  <span className="nav-english">Hot Drinks</span>
+                </div>
+              </Link>
+              <Link to="/products" className="header">
+                <div>
+                  <span className="nav-text">نوشیدن گرم</span>
+                  <span className="nav-english">Hot Drinks</span>
+                </div>
+              </Link>
+              <Link to="/contact" className="header">
+                <div>
+                  <span className="nav-text">نوشیدن گرم</span>
+                  <span className="nav-english">Hot Drinks</span>
+                </div>
+              </Link>
+              <Link to="/intro" className="header">
+                <div>
+                  <span className="nav-text">نوشیدن گرم</span>
+                  <span className="nav-english">Hot Drinks</span>
+                </div>
+              </Link>
               {/* Add NewPost link if needed: */}
               {/* <Link to="/newpost" className="header">New Post</Link> */}
             </ul>
