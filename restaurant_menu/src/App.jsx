@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import Intro from './intro.jsx';
+import { ColdDrinks } from './cold-drinks.jsx';
 // Remove NewPost import if not used, or implement it
 
 const Home = () => <div className="page"><h1>Home Page</h1><p>Welcome to our website!</p></div>;
@@ -44,7 +45,7 @@ function App() {
                   <span className="nav-english">MilkShakes</span>
                 </div>
               </Link>
-              <Link to="/contact" className="header">
+              <Link to="/coldDrinks" className="header">
                 <div>
                   <span className="nav-text">نوشیدن سرد</span>
                   <span className="nav-english">Cold Drinks</span>
@@ -68,7 +69,7 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/services" element={<Services />} />
               <Route path="/products" element={<Products />} />
-              <Route path="/contact" element={<Contact />} />
+              <Route path="/coldDrinks" element={<ColdDrinks />} />
               <Route path="/intro" element={<Intro />} />
               {/* Add NewPost route if needed: */}
               {/* <Route path="/newpost" element={<NewPost />} /> */}
