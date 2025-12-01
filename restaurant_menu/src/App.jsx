@@ -22,18 +22,6 @@ function App() {
           {/* Navigation Menu - Fixed duplicate links */}
           <nav className="navbar">
             <ul className="nav-menu">
-              <Link to="/" className="header">
-                <div>
-                  <span className="nav-text">غذای اصلی</span>
-                  <span className="nav-english">Main Meals</span>
-                </div>
-              </Link>
-              <Link to="/about" className="header">
-                <div>
-                  <span className="nav-text">پیش غذا</span>
-                  <span className="nav-english">Prefoods</span>
-                </div>
-              </Link>
               <Link to="/Tea" className="header">
                 <div>
                   <span className="nav-text">چای و دمنوش</span>
@@ -66,8 +54,6 @@ function App() {
           {/* Page Content */}
           <main className="main-content">
             <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
               <Route path="/Tea" element={<Tea />} />
               <Route path="/Milkshakes" element={<Milkshakes />} />
               <Route path="/ColdDrinks" element={<ColdDrinks />} />
