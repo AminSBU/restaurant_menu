@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import './cold-drinks.css'
+import './ColdDrinks.css'
 import Menu from './Menu.jsx'
 import coldDrinkitemsList from './cold-drinks.json';
 
