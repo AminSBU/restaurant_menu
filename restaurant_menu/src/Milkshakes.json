@@ -1,0 +1,26 @@
+[
+    {
+        "title": "شیک بادام زمینی",
+        "description": "شیک بادام زمینی به همراه بستنی",
+        "price": 150000,
+        "image": "./src/img/milkshake.png"
+    },
+    {
+        "title": "شیک توت فرنگی",
+        "description": "شیک توت فرنگی به همراه بستنی کارامل",
+        "price": 170000,
+        "image": "./src/img/milkshake.png"
+    },
+    {
+        "title": "شیک موز",
+        "description": "شیک بستنی به همراه موز کلمبیا",
+        "price": 185000,
+        "image": "./src/img/milkshake.png"
+    },
+    {
+        "title": "شیک اسپرسو",
+        "description": "یک شات اسپرسو به همراه شیک بستنی",
+        "price": 175000,
+        "image": "./src/img/milkshake.png"
+    }
+]

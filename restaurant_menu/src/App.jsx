@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import Intro from './intro.jsx';
 import ColdDrinks from './ColdDrinks.jsx';
+import Milkshakes from './Milkshakes.jsx';
 
 const Home = () => <div className="page"><h1>Home Page</h1><p>Welcome to our website!</p></div>;
 const About = () => <div className="page"><h1>About Us</h1><p>Learn more about our company.</p></div>;
@@ -38,7 +39,7 @@ function App() {
                   <span className="nav-english">Hot Drinks</span>
                 </div>
               </Link>
-              <Link to="/products" className="header">
+              <Link to="/Milkshakes" className="header">
                 <div>
                   <span className="nav-text">شیک</span>
                   <span className="nav-english">MilkShakes</span>
@@ -67,7 +68,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/services" element={<Services />} />
-              <Route path="/products" element={<Products />} />
+              <Route path="/Milkshakes" element={<Milkshakes />} />
               <Route path="/ColdDrinks" element={<ColdDrinks />} />
               <Route path="/intro" element={<Intro />} />
               {/* Add NewPost route if needed: */}
