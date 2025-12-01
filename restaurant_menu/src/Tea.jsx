@@ -1,16 +1,16 @@
 import { useEffect, useState } from 'react';
-import './Milkshakes.css'
+import './Tea.css'
 import Menu from './Menu.jsx'
-import milkShakesitemsList from './Milkshakes.json';
+import teaitemsList from './tea.json';
 
-function MilkShakes()
+function Tea()
 {
     return(
         <>
             <div className="intro-container">
-                <Menu items={milkShakesitemsList} />
+                <Menu items={teaitemsList} />
             </div>
         </>
     );
 }
-export default MilkShakes;
+export default Tea;

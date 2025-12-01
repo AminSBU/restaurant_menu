@@ -4,6 +4,7 @@ import './App.css';
 import Intro from './intro.jsx';
 import ColdDrinks from './ColdDrinks.jsx';
 import Milkshakes from './Milkshakes.jsx';
+import Tea from './Tea.jsx';
 
 const Home = () => <div className="page"><h1>Home Page</h1><p>Welcome to our website!</p></div>;
 const About = () => <div className="page"><h1>About Us</h1><p>Learn more about our company.</p></div>;
@@ -33,7 +34,7 @@ function App() {
                   <span className="nav-english">Prefoods</span>
                 </div>
               </Link>
-              <Link to="/services" className="header">
+              <Link to="/Tea" className="header">
                 <div>
                   <span className="nav-text">چای و دمنوش</span>
                   <span className="nav-english">Hot Drinks</span>
@@ -67,7 +68,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
-              <Route path="/services" element={<Services />} />
+              <Route path="/Tea" element={<Tea />} />
               <Route path="/Milkshakes" element={<Milkshakes />} />
               <Route path="/ColdDrinks" element={<ColdDrinks />} />
               <Route path="/intro" element={<Intro />} />

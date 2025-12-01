@@ -1,0 +1,26 @@
+[
+    {
+        "title": "دمنوش زنجنبیل",
+        "description": "دمنوش زنجبیل به همراه شکلات",
+        "price": 80000,
+        "image": "./src/img/tea.png"
+    },
+    {
+        "title": "دمنوش نعنا",
+        "description": "دمنوش نعنا به همراه آبلیمو",
+        "price": 60000,
+        "image": "./src/img/tea.png"
+    },
+    {
+        "title": "چای سبز",
+        "description": "چای سبز هندوستان",
+        "price": 85000,
+        "image": "./src/img/tea.png"
+    },
+    {
+        "title": "چای سیاه انگلیس",
+        "description": "چای احمد",
+        "price": 5000,
+        "image": "./src/img/tea.png"
+    }
+]
