@@ -5,6 +5,7 @@ import Intro from './intro.jsx';
 import ColdDrinks from './ColdDrinks.jsx';
 import Milkshakes from './Milkshakes.jsx';
 import Tea from './Tea.jsx';
+import Dashboard from './Dashboard.jsx';
 
 const Home = () => <div className="page"><h1>Home Page</h1><p>Welcome to our website!</p></div>;
 const About = () => <div className="page"><h1>About Us</h1><p>Learn more about our company.</p></div>;
@@ -46,8 +47,12 @@ function App() {
                   <span className="nav-english">Hot Drinks</span>
                 </div>
               </Link>
-              {/* Add NewPost link if needed: */}
-              {/* <Link to="/newpost" className="header">New Post</Link> */}
+              <Link to="/dashboard" className="header">
+                <div>
+                  <span className="nav-text">داشبورد</span>
+                  <span className="nav-english">dashboard</span>
+                </div>
+              </Link>
             </ul>
           </nav>
 
@@ -58,8 +63,7 @@ function App() {
               <Route path="/Milkshakes" element={<Milkshakes />} />
               <Route path="/ColdDrinks" element={<ColdDrinks />} />
               <Route path="/intro" element={<Intro />} />
-              {/* Add NewPost route if needed: */}
-              {/* <Route path="/newpost" element={<NewPost />} /> */}
+              <Route path="/dashboard" element={<Dashboard />} />
             </Routes>
           </main>
         </div>
