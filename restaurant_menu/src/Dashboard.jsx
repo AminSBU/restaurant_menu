@@ -1,4 +1,5 @@
-import { Sidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
+import { Sidebar, Menu, MenuItem } from 'react-pro-sidebar';
+import { Link } from 'react-router-dom';
 
 function Dashboard()
 {
@@ -11,14 +12,20 @@ function Dashboard()
                 height: '100vh',
                 width: '250px',
                 backgroundColor: '#f0f0f0',
-                }}>
-                <Menu>
-                    <SubMenu label="Charts">
-                    <MenuItem> Pie charts </MenuItem>
-                    <MenuItem> Line charts </MenuItem>
-                    </SubMenu>
-                    <MenuItem> Documentation </MenuItem>
-                    <MenuItem> Calendar </MenuItem>
+                }}
+            >
+                <Menu menuItemStyles={{
+                    button: {
+                    [`&.active`]: {
+                        backgroundColor: '#13395e',
+                        color: '#b6c8d9',
+                    },
+                    },
+                    }}
+                >
+                    <MenuItem component={<Link to="/documentation" />}> Documentation</MenuItem>
+                    <MenuItem component={<Link to="/calendar" />}> Calendar</MenuItem>
+                    <MenuItem component={<Link to="/e-commerce" />}> E-commerce</MenuItem>
                 </Menu>
             </Sidebar>;
         </>
