@@ -6,6 +6,7 @@ import ColdDrinks from './ColdDrinks.jsx';
 import Milkshakes from './Milkshakes.jsx';
 import Tea from './Tea.jsx';
 import Dashboard from './Dashboard.jsx';
+import Login from './Login.jsx'
 
 const Home = () => <div className="page"><h1>Home Page</h1><p>Welcome to our website!</p></div>;
 const About = () => <div className="page"><h1>About Us</h1><p>Learn more about our company.</p></div>;
