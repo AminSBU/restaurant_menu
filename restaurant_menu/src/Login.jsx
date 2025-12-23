@@ -4,7 +4,7 @@ function Login()
         <>
             <div className="form-container">
                 <form>
-                    <div className="username-text">
+                    <div className="username-text" class="rounded-2xl border-4">
                         <input type="text" required placeholder="username"></input>
                     </div>
                     <div className="password-text">
