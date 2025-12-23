@@ -54,6 +54,12 @@ function App() {
                   <span className="nav-english">dashboard</span>
                 </div>
               </Link>
+              <Link to="/Login" className="Login">
+                <div>
+                  <span className="nav-text">ورود به سایت</span>
+                  <span className="nav-english">Login</span>
+                </div>
+              </Link>
             </ul>
           </nav>
 
@@ -65,6 +71,7 @@ function App() {
               <Route path="/ColdDrinks" element={<ColdDrinks />} />
               <Route path="/intro" element={<Intro />} />
               <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/Login" element={<Login />} />
             </Routes>
           </main>
         </div>
