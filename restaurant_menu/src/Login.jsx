@@ -1,12 +1,7 @@
 function Login() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 p-4">
       <div className="w-full max-w-lg">
-        <div className="bg-white rounded-2xl shadow-lg p-8">
-          <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">
-            Welcome Back
-          </h2>
-          
+        <div className="bg-white rounded-2xl shadow-lg p-8">          
           <form className="space-y-8">
             {/* Form Fields in Grid Layout */}
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
@@ -56,7 +51,6 @@ function Login() {
           </form>
         </div>
       </div>
-    </div>
   );
 }
 
