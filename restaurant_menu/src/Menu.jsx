@@ -17,6 +17,9 @@ function Menu({items})
                     <div className="menu-price">
                         {item.price.toLocaleString('fa-IR')} تومان
                     </div>
+                    <div>
+                    <button>اضافه به لیست</button>
+                    </div>
                     </div>
                 ))}
             </div>
