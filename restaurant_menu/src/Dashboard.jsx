@@ -1,5 +1,6 @@
 import { Sidebar, Menu, MenuItem } from 'react-pro-sidebar';
 import { Link } from 'react-router-dom';
+import Documentation from './Documentation.jsx';
 
 function Dashboard()
 {
@@ -23,7 +24,7 @@ function Dashboard()
                     },
                     }}
                 >
-                    <MenuItem component={<Link to="/documentation" />}> Documentation</MenuItem>
+                    <MenuItem component={<Link to="/Documentation" />}> Documentation</MenuItem>
                     <MenuItem component={<Link to="/calendar" />}> Calendar</MenuItem>
                     <MenuItem component={<Link to="/e-commerce" />}> E-commerce</MenuItem>
                 </Menu>
