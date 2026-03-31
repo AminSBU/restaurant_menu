@@ -1,9 +1,13 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import './App.jsx';
 
 function Login() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [rememberMe, setRememberMe] = useState(false);
+
+  const navigate = useNavigate();
 
   const usernameStoreHandle = (e) => {
     setUsername(e.target.value);
@@ -22,6 +26,7 @@ function Login() {
     if(username === "admin" && password === "admin")
     {
       console.log('login ********************************')
+      navigate("/dashboard");
     }
     else
     {
