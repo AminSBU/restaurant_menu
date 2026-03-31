@@ -24,7 +24,7 @@ function Dashboard()
                     },
                     }}
                 >
-                    <MenuItem component={<Link to="/Documentation" />}> Documentation</MenuItem>
+                    <MenuItem component={<Link to="/sendItems" />}> Send items</MenuItem>
                     <MenuItem component={<Link to="/calendar" />}> Calendar</MenuItem>
                     <MenuItem component={<Link to="/e-commerce" />}> E-commerce</MenuItem>
                 </Menu>
