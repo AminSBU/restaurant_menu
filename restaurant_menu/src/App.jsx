@@ -7,6 +7,7 @@ import Milkshakes from './Milkshakes.jsx';
 import Tea from './Tea.jsx';
 import Dashboard from './Dashboard.jsx';
 import Login from './Login.jsx'
+import SendItems from './sendItems.jsx';
 
 const Home = () => <div className="page"><h1>Home Page</h1><p>Welcome to our website!</p></div>;
 const About = () => <div className="page"><h1>About Us</h1><p>Learn more about our company.</p></div>;
@@ -48,18 +49,6 @@ function App() {
                   <span className="nav-english">Hot Drinks</span>
                 </div>
               </Link>
-              <Link to="/dashboard" className="header">
-                <div>
-                  <span className="nav-text">داشبورد</span>
-                  <span className="nav-english">dashboard</span>
-                </div>
-              </Link>
-              <Link to="/Login" className="Login">
-                <div>
-                  <span className="nav-text">ورود به سایت</span>
-                  <span className="nav-english">Login</span>
-                </div>
-              </Link>
             </ul>
           </nav>
 
@@ -72,6 +61,7 @@ function App() {
               <Route path="/intro" element={<Intro />} />
               <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/Login" element={<Login />} />
+              <Route path="/sendItems" element={<SendItems />} />
             </Routes>
           </main>
         </div>
