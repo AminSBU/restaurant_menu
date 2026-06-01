@@ -116,3 +116,10 @@
   background-color: #f8f9fa;
   color: #007bff;
 }
+
+.nav-image
+{
+  width: 3px;
+  height: 2px;
+  justify-content: center;
+}

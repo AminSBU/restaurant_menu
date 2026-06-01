@@ -27,6 +27,7 @@ function App() {
             <ul className="nav-menu">
               <Link to="/Tea" className="header">
                 <div>
+                  <span className="nav-image"><img src='./src/img/tea_50x30.png'></img></span>
                   <span className="nav-text">چای و دمنوش</span>
                   <span className="nav-english">Hot Drinks</span>
                 </div>
