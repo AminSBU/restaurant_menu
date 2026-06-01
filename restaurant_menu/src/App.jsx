@@ -8,6 +8,7 @@ import Tea from './Tea.jsx';
 import Dashboard from './Dashboard.jsx';
 import Login from './Login.jsx'
 import SendItems from './sendItems.jsx';
+import SendPost from './SendPost.jsx'
 
 const Home = () => <div className="page"><h1>Home Page</h1><p>Welcome to our website!</p></div>;
 const About = () => <div className="page"><h1>About Us</h1><p>Learn more about our company.</p></div>;
@@ -25,27 +26,37 @@ function App() {
           {/* Navigation Menu - Fixed duplicate links */}
           <nav className="navbar">
             <ul className="nav-menu">
+              <Link to="/send-post" className="header">
+                <div>
+                  <span className="nav-image"><img src='./src/img/icon-send-50.png'></img></span>
+                  <span className="nav-text">ارسال پست</span>
+                  <span className="nav-english">Send Post</span>
+                </div>
+              </Link>
               <Link to="/Tea" className="header">
                 <div>
-                  <span className="nav-image"><img src='./src/img/tea_50x30.png'></img></span>
+                  <span className="nav-image"><img src='./src/img/icon-tea-50.png'></img></span>
                   <span className="nav-text">چای و دمنوش</span>
                   <span className="nav-english">Hot Drinks</span>
                 </div>
               </Link>
               <Link to="/Milkshakes" className="header">
                 <div>
+                  <span className="nav-image"><img src='./src/img/icon-milkshake-50.png'></img></span>
                   <span className="nav-text">شیک</span>
                   <span className="nav-english">MilkShakes</span>
                 </div>
               </Link>
               <Link to="/ColdDrinks" className="header">
                 <div>
+                  <span className="nav-image"><img src='./src/img/icon-affogato-64.png'></img></span>
                   <span className="nav-text">نوشیدن سرد</span>
                   <span className="nav-english">Cold Drinks</span>
                 </div>
               </Link>
               <Link to="/intro" className="header">
                 <div>
+                  <span className="nav-image"><img src='./src/img/icon-cafe-50.png'></img></span>
                   <span className="nav-text">نوشیدن گرم</span>
                   <span className="nav-english">Hot Drinks</span>
                 </div>
@@ -56,6 +67,7 @@ function App() {
           {/* Page Content */}
           <main className="main-content">
             <Routes>
+              <Route path="/send-post" element={<SendPost />} />
               <Route path="/Tea" element={<Tea />} />
               <Route path="/Milkshakes" element={<Milkshakes />} />
               <Route path="/ColdDrinks" element={<ColdDrinks />} />
